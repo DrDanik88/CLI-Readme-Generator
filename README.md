@@ -2,10 +2,10 @@
   # Readme Generator
   
   ## Table of Contents
-  - [Installation](##Installation)
-  - [Usage](##Usage)
-  - [Credits](##Credits)
-  - [License](##License)
+  - [Installation](##installation)
+  - [Usage](##usage)
+  - [Credits](##credits)
+  - [License](##license)
   
 
   ## Description
