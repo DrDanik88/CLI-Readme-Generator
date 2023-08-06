@@ -16,7 +16,8 @@
   I wanted to create a way that would be easy for me to create a high quality README.md file with all the required information. This code runs in a terminal and has all the questions needed.
   
   ## Installation
-  Make sure you have VSCode installed <br>Node.js installed <br> then clone the ree repo and run index.js
+  Make sure you have VSCode installed <br>Node.js installed <br> then clone the repo and run index.js
+  <br>**It is better to run it in an outside terminal instead of the integrated terminal of VSCode. 
   
   ### Here is the link for the deployed application:
   https://github.com/DrDanik88/CLI-Readme-Generator
