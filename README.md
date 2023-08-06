@@ -1,30 +1,35 @@
 
-  # Readme Generator
+  # Readme Generator via CLI
   
   ## Table of Contents
-  - [Installation](#installation)
-  - [Usage](#usage)
-  - [Credits](#credits)
-  - [License](#license)
-  - [Tests](#license)
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Credits](#Credits)
+  - [License](#License)
+  - [Questions](#Questions)
   
 
   ## Description
-  I built it because it's actually a fin way to get a readme, well organized and making sure it includes all the items you need. Yes, you do have to put a bit of love into it.
+  This is actually a usef
   
   ## Installation
-  1- Install Visual Studio Code 2- Install node.js 3- copy git repo 4- then run node index.js
+  1-step1 2-step2 3-step3 4-step4 5-step5
+  Here is the link for the deployed application:
   https://github.com/DrDanik88/CLI-Readme-Generator
   
   ## Usage
-  Once deployed, run the index.js file with node and simply answer the questions. Your readme will look like the one you are reading right now
+  follow prompts
   
   ## Credits
-  No links so far. I did use inspiration from previous classes we had
+  maybe my dog
 
   ## License
-  MIT
+  Apache
   
   ## Tests
-  There are no tests for now
+  no tests
+  
+  ## Questions
+  DrDanik88
+  https://github.com/DrDanik88
   

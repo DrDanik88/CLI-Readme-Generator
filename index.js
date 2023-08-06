@@ -46,6 +46,11 @@ const questions = [
       name: 'license',
       choices: ['MIT', 'Apache', 'GPL', 'None'],
     },
+    {
+      type: 'input',
+      name: 'questions',
+      message: 'Please enter your GitHub username',
+    },
   ];
 
   inquirer.prompt(questions).then(answers => {
@@ -57,6 +62,7 @@ const questions = [
   - [Usage](#Usage)
   - [Credits](#Credits)
   - [License](#License)
+  - [Questions](#Questions)
   
 
   ## Description
@@ -64,6 +70,8 @@ const questions = [
   
   ## Installation
   ${answers.installation}
+  
+  ### Here is the link for the deployed application:
   ${answers.link}
   
   ## Usage
@@ -77,6 +85,10 @@ const questions = [
   
   ## Tests
   ${answers.tests}
+  
+  ## Questions
+  ${answers.questions}
+  https://github.com/${answers.questions}
   `;
   
     fs.writeFile('README.md', readmeContent, err => {
