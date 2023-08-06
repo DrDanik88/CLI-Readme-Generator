@@ -1,6 +1,8 @@
 
-  # ffdfsdffsd
+  # fes
   
+  [![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -11,27 +13,29 @@
   
 
   ## Description
-  sdfdfdfdfdfdfdf
+  dsf
   
   ## Installation
-  fsddddddd
+  dfs
   
   ### Here is the link for the deployed application:
-  sdfffffff
+  fds
   
   ## Usage
-  rewwwwwwww
+  fsd
   
   ## Credits
-  3222224
+  fsd
 
   ## License
-  Apache
+  MIT
+  <br> Click this link for more information on the License:
+  https://opensource.org/license/MIT
   
   ## Tests
-  rewwwwww
+  fds
   
   ## Questions
-  DrDanik88
-  https://github.com/DrDanik88
+  drdanik88
+  https://github.com/drdanik88
   

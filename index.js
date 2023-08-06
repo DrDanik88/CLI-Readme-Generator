@@ -54,9 +54,14 @@ const questions = [
   ];
 
   inquirer.prompt(questions).then(answers => {
+    const licenseBadge = `[![License](https://img.shields.io/badge/License-${encodeURIComponent(answers.license)}-brightgreen)](https://opensource.org/licenses/${encodeURIComponent(answers.license)})`;
+
+    const licenseLink = `https://opensource.org/license/${encodeURIComponent(answers.license)}`;
     const readmeContent = `
   # ${answers.title}
   
+  ${licenseBadge}
+
   ## Table of Contents
   - [Installation](#installation)
   - [Usage](#usage)
@@ -83,6 +88,8 @@ const questions = [
 
   ## License
   ${answers.license}
+  <br> Click this link for more information on the License:
+  ${licenseLink}
   
   ## Tests
   ${answers.tests}
