@@ -1,5 +1,5 @@
 
-  # fes
+  # Readme Markdown File Generator
   
   [![License](https://img.shields.io/badge/License-MIT-brightgreen)](https://opensource.org/licenses/MIT)
 
@@ -13,19 +13,20 @@
   
 
   ## Description
-  dsf
+  I wanted to create a way that would be easy for me to create a high quality README.md file with all the required information. This code runs in a terminal and has all the questions needed.
   
   ## Installation
-  dfs
+  Make sure you have VSCode installed <br>Node.js installed <br> then clone the ree repo and run index.js
   
   ### Here is the link for the deployed application:
-  fds
+  https://github.com/DrDanik88/CLI-Readme-Generator
   
   ## Usage
-  fsd
+  Use this script to generate the file then copy the newly generated file into your current project
+  <br>If you need to create new lines while answering questions in the CLI, use breaks < br >
   
   ## Credits
-  fsd
+  none
 
   ## License
   MIT
@@ -33,9 +34,10 @@
   https://opensource.org/license/MIT
   
   ## Tests
-  fds
+  no tests for this app
   
   ## Questions
-  drdanik88
-  https://github.com/drdanik88
+  DrDanik88
+  https://github.com/DrDanik88
+  <br> Please email me at email@email.com with any questions.
   

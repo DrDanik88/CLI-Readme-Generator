@@ -48,8 +48,13 @@ const questions = [
     },
     {
       type: 'input',
-      name: 'questions',
+      name: 'username',
       message: 'Please enter your GitHub username',
+    },
+    {
+      type: 'input',
+      name: 'email',
+      message: 'Please enter your email',
     },
   ];
 
@@ -95,8 +100,9 @@ const questions = [
   ${answers.tests}
   
   ## Questions
-  ${answers.questions}
-  https://github.com/${answers.questions}
+  ${answers.username}
+  https://github.com/${answers.username}
+  <br> Please email me at ${answers.email} with any questions.
   `;
   
     fs.writeFile('README.md', readmeContent, err => {
