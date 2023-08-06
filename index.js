@@ -28,18 +28,18 @@ const questions = [
     {
       type: 'input',
       name: 'contribution',
-      message: 'Provide instructions and examples for use. Include screenshots as needed.',
+      message: 'List your collaborators, if any, with links to their GitHub profiles. If you used any third-party assets that require attribution, list the creators with links to their primary web presence in this section.If you followed tutorials, include links to those here as well.',
     },
     {
       type: 'input',
-      name: 'test',
+      name: 'tests',
       message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
     },
   ];
 
   inquirer.prompt(questions).then(answers => {
     const readmeContent = `
-  # ${answers.name}
+  # ${answers.title}
   
   ## Description
   ${answers.description}
@@ -67,8 +67,7 @@ const questions = [
   });
 
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+
 
 // TODO: Create a function to initialize app
 function init() {}
