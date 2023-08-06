@@ -22,6 +22,11 @@ const questions = [
     },
     {
       type: 'input',
+      name: 'link',
+      message: 'Type a link to the deployed application or type na if not applicable.',
+    },
+    {
+      type: 'input',
       name: 'usage',
       message: 'Provide instructions and examples for use. Include screenshots as needed.',
     },
@@ -35,23 +40,40 @@ const questions = [
       name: 'tests',
       message: 'Go the extra mile and write tests for your application. Then provide examples on how to run them here.',
     },
+    {
+      type: 'list',
+      message: 'Would you like to include a license?',
+      name: 'license',
+      choices: ['MIT', 'Apache', 'GPL', 'None'],
+    },
   ];
 
   inquirer.prompt(questions).then(answers => {
     const readmeContent = `
   # ${answers.title}
   
+  ## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Credits](#Credits)
+  - [License](#License)
+  
+
   ## Description
   ${answers.description}
   
   ## Installation
   ${answers.installation}
+  ${answers.link}
   
   ## Usage
   ${answers.usage}
   
-  ## Contributing
+  ## Credits
   ${answers.contribution}
+
+  ## License
+  ${answers.license}
   
   ## Tests
   ${answers.tests}

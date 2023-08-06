@@ -1,18 +1,29 @@
 
-  # Project Readme
+  # Readme Generator
   
+  ## Table of Contents
+  - [Installation](#Installation)
+  - [Usage](#Usage)
+  - [Credits](#Credits)
+  - [License](#License)
+  
+
   ## Description
-  I was quite excited to do this one since it us a sueful project for every project. It's a bit odd typing here because the termnial is kinda of acting up.  I did lelearn to use  inquierer. This terminal is just to weird. Bash does a better job.
+  I built it because it's actually a fin way to get a readme, well organized and making sure it includes all the items you need. Yes, you do have to put a bit of love into it.
   
   ## Installation
-  you need ot run this in visual studio code -- install npm and  inquierer 8.2.4 and obviously node.js primalarly.
+  1- Install Visual Studio Code 2- Install node.js 3- copy git repo 4- then run node index.js
+  https://github.com/DrDanik88/CLI-Readme-Generator
   
   ## Usage
-  You use it for automatically formatting you readme.md file and as well as automaticcaly setting upo the structure.
+  Once deployed, run the index.js file with node and simply answer the questions. Your readme will look like the one you are reading right now
   
-  ## Contributing
-  This question has been fixed in the next version of code. but these are the contributors. If you are gonna add some links please add them in quotes "www.google.com, www.netscapte.com"
+  ## Credits
+  No links so far. I did use inspiration from previous classes we had
+
+  ## License
+  MIT
   
   ## Tests
-  This requires no testing it's just so perfect the way it is hahaha
+  There are no tests for now
   
