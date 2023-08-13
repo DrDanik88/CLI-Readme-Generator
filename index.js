@@ -1,8 +1,8 @@
-// TODO: Include packages needed for this application
+// All packages needed for this application
 const inquirer = require('inquirer'); //questions plugin
 const fs = require('fs'); //file system plugin to write file
 
-// TODO: Create an array of questions for user input
+// Here is the array of question to be asked to the user
 const questions = [
     {
       type: 'input',
@@ -57,7 +57,7 @@ const questions = [
       message: 'Please enter your email',
     },
   ];
-
+//Fetch the license image from the internet and add it to the readme file
   inquirer.prompt(questions).then(answers => {
     const licenseBadge = `[![License](https://img.shields.io/badge/License-${encodeURIComponent(answers.license)}-brightgreen)](https://opensource.org/licenses/${encodeURIComponent(answers.license)})`;
 
@@ -104,7 +104,7 @@ const questions = [
   https://github.com/${answers.username}
   <br> Please email me at ${answers.email} with any questions.
   `;
-  
+  //Write the readme markdown file
     fs.writeFile('README.md', readmeContent, err => {
       if (err) {
         console.error('Error writing README.md:', err);
