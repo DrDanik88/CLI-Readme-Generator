@@ -28,7 +28,7 @@
   <br>If you need to create new lines while answering questions in the CLI, use breaks < br >
   <br>
  [Youtube Video Link](https://youtu.be/UM5YD-H3Ef4)
- <br>
+ <br> Click image to open GitHub video
 [<img src="./assets/screenshot.JPG">](https://github.com/DrDanik88/CLI-Readme-Generator/assets/133409041/bcdd6925-43d8-417d-ae70-38568b966c2b)
 
  
