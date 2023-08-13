@@ -20,19 +20,20 @@
   <br>**It is better to run it in an outside terminal instead of the integrated terminal of VSCode. 
   
   ### Here is the link for the deployed application:
-  https://github.com/DrDanik88/CLI-Readme-Generator
+  <br>
+  https://drdanik88.github.io/CLI-Readme-Generator/
   
   ## Usage
   Use this script to generate the file then copy the newly generated file into your current project
   <br>If you need to create new lines while answering questions in the CLI, use breaks < br >
+  <br> Click to open the video
   <br>
-  [![Video Link](./assets/screenshot.JPG)](./assets/How_2_use.webm)
+  [![Video Link](./assets/How_2_use.webm)
   <br>
   <br>
   https://drdanik88.github.io/CLI-Readme-Generator/
 
-
-  
+ 
   ## Credits
   none
 
