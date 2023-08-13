@@ -26,12 +26,9 @@
   ## Usage
   Use this script to generate the file then copy the newly generated file into your current project
   <br>If you need to create new lines while answering questions in the CLI, use breaks < br >
-  <br> Click to open the video
-  <br>
-  [![Video Link](./assets/How_2_use.webm)
-  <br>
   <br>
   https://drdanik88.github.io/CLI-Readme-Generator/
+[How_2_use.webm](https://github.com/DrDanik88/CLI-Readme-Generator/assets/133409041/bcdd6925-43d8-417d-ae70-38568b966c2b)
 
  
   ## Credits
